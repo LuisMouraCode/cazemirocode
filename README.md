@@ -7,6 +7,10 @@ Bem-vindo ao **cazemirocode**! Este é um site simples e responsivo criado com H
 1. Baixe ou clone o repositório.
 2. Abra o arquivo `index.html` no navegador para visualizar o site.
 
+## Visual
+
+(readme.png)
+
 ## Tecnologias
 
 - HTML5
