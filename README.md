@@ -9,7 +9,7 @@ Bem-vindo ao **cazemirocode**! Este é um site simples e responsivo criado com H
 
 ## Visual
 
-(readme.png)
+![Visual do site](readme.png)
 
 ## Tecnologias
 
