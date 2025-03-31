@@ -1,5 +1,4 @@
 # cazemirocode
- 
 
 Bem-vindo ao **cazemirocode**! Este é um site simples e responsivo criado com HTML e CSS, apresentando informações sobre um programador iniciante.
 
