@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Luis Davi</title>
+    <title>Luis Davi - Portfólio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 15px;
-            padding: 10px;
-            background-color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(90deg, #4a4e69, #9a8c98);
+            color: #ffffff;
         }
 
         header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
         }
 
         .links a {
-            color: white;
+            color: #f2e9e4;
             text-decoration: none;
-            margin: 0 10px;
-            font-size: 22px; 
-            transition: font-size 0.3s ease; 
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
         }
 
         .links a:hover {
-            font-size: 20px; 
+            color: #00ffaa;
         }
 
-        #box {
-            text-align: center;
-            margin: 60px auto;
-            padding: 60px;
-            background: #666;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .text-content {
             max-width: 600px;
         }
 
-        #box img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
+        .text-content h1 {
+            font-size: 48px;
+            color: #f2e9e4;
+            margin-bottom: 20px;
         }
 
-        #box h1 {
-            font-size: 24px;
-            margin: 10px 0;
-            color: whitesmoke;
+        .text-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #e0e0e0;
         }
 
-        #box h2 {
-            font-size: 20px;
-            color: whitesmoke;
+        .text-content .details {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
         }
 
-                #box p {
-                    font-size: 16px;
-                    color: #666;
-                }
-            </style>
-        <body>
+        .text-content .details div {
+            font-size: 16px;
+            color: #d4d4d4;
+        }
+
+        .image-content img {
+            width: 300px;
+            height: 300px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
     <header>
         <div class="links">
             <a href="https://www.instagram.com" target="_blank">Instagram</a>
-            <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
-            <a href="https://www.github.com/" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com/" target="_blank">GitHub</a>
         </div>
     </header>
-    <div id="box">
-      <img src="profile.png">
-      <h1>Luis Davi</h1>
-      <h2>Programador Iniciante</h2>
-    
+    <div class="container">
+        <div class="text-content">
+            <h1>Frontend Developer</h1>
+            <p>
+                Olá, meu nome é Luis Davi. 
+            </p>    
+        </div>
+        <div class="image-content">
+            <img src="profile.png" alt="Foto de perfil">
+        </div>
+    </div>
 </body>
 </html>
